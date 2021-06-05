@@ -1,8 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
-header{
+
+header {
     background: url(../img/apples.jpg) no-repeat center;
     width: 1600px;
     height: 740px;
@@ -10,7 +14,8 @@ header{
     max-width: 100%;
     color: white;
 }
-.top{
+
+.top {
     padding: 56px 70px;
     display: flex;
     flex-wrap: wrap;
@@ -18,25 +23,29 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-nav > a{
+
+nav>a {
     text-decoration: none;
     margin-left: 72px;
     font-size: 20px;
     color: white;
     transition: 0 0.7s;
 }
-nav > a:hover{
+
+nav>a:hover {
     margin-left: 72px;
     font-size: 20px;
     color: black;
     transition: 0 0.7s;
 }
-.top > h1{
+
+.top>h1 {
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
-header > article{
+
+header>article {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,28 +53,142 @@ header > article{
     align-items: center;
     align-content: center;
 }
-header > article :first-child{
+
+header>article :first-child {
     font-size: 60px;
     margin-top: 200px;
     letter-spacing: 6px;
     text-transform: uppercase;
 }
-header > article :first-child.end{
+
+header>article :first-child.end {
     font-size: 100px;
 }
-article > p{
+
+article>p {
     font-size: 20px;
     letter-spacing: 2px;
 }
-header > button{
-    border: 1px white;
+
+header>article>button {
+    margin: 60px 0;
+    width: 20%;
+    height: 50px;
+    border: 2px solid white;
+    background-color: rgb(52, 54, 56, 0.5 );
+    color: white;
+    font-size: 16px;
+    transition: all 0.5s;
+
+}
+header>article>button:hover {
+    border: 2px solid white;
+    background-color: #A4A4A4;
+    transition: all 0.5s;
+
 }
 
 
+.section-text{
+    display: flex;
+    margin: 90px 70px;
+    gap: 8%;
+    text-align: justify;
+}
+.section-text>p{
+    width: 50%;
+    font-size: 13px;
+}
+.section-text>p:first-child{
+    font-size: 19px;
 
-.section-img > article:nth-child(2n+1) {
-display: flex;
-flex-direction: row-reverse;
-justify-content: flex-start;
-margin: 10px 40px;
+}
+.wrapper{
+    background-color: #F0F0F0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-img{
+    margin: 10% 70px 0 70px;
+}
+.section-img>h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.section-img>article{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0;
+}
+.section-img>article:nth-child(2n+1) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    
+}
+.subscribe{
+    margin-bottom:  20px;
+    width: 91%;
+    height: 70px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.subscribe-wrapper{
+    display: flex;
+    margin: 0 20px;
+    width: 70%;
+}
+.subscribe-wrapper>input{
+    width: 95%;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid rgb(42, 44, 46);
+    background-color: #F0F0F0;
+    color: black;
+}
+.subscribe-wrapper>button{
+    background-color: rgb(42, 44, 46);
+    border: 1px solid rgb(42, 44, 46);
+    color: #F3F3F3;
+    text-align: center;
+    font-size: 10px;
+    width: 10%;
+}
+footer{
+    margin: 90px 70px 0 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+footer>ul{
+    display: flex;
+    gap: 70px;
+    font-size: 12px;
+    align-items: baseline;
+
+}
+footer>ul>li{
+    display: flex;
+    flex-direction: column;
+}
+footer>ul>li>p{
+    color: #9E9E9E;
+}
+.lightly-color{
+    margin-top: 7PX;
+    color: #F3F3F3;
+}
+h3{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }

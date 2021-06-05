@@ -1,89 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Roboto&display=swap"
+    rel="stylesheet">
   <title>CSS Layouts</title>
 </head>
+
 <body>
-    <!-- Your code goes here -->
-    <header>
-      <div class="top">
-        <h1>Black &#38; White</h1>        
-        <nav>
-          <a role="button" href="#Home" target="_self">Home</a>
-          <a role="button" href="#about" target="_self">About</a>
-          <a role="button" href="#vacancies" target="_self">Vacancies</a>
-          <a role="button" href="#shop" target="_self">Shop</a>
-        </nav>  
-      </div>    
-      <article>
-        <p>Black <span class="end">&#38;</span> White</p>
-        <p>An Original Brand Since 1965</p>
-        <button type="button" onclick="">Show More</button>
-      </article>
+  <!-- Your code goes here -->
+  <header>
+    <div class="top">
+      <h1>Black &#38; White</h1>
+      <nav>
+        <a role="button" href="#Home" target="_self">Home</a>
+        <a role="button" href="#about" target="_self">About</a>
+        <a role="button" href="#vacancies" target="_self">Vacancies</a>
+        <a role="button" href="#shop" target="_self">Shop</a>
+      </nav>
+    </div>
+    <article>
+      <p>Black <span class="end">&#38;</span> White</p>
+      <p>An Original Brand Since 1965</p>
+      <button type="button" onclick="">Show More</button>
+    </article>
   </header>
   <section class="section-text">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <strong>tempor incididunt</strong> ut labore et dolor
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <strong>tempor incididunt</strong> ut
+      labore et dolor
     </p>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit duis tristique sollicitudin nibh. Fringilla ut morbi tincidunt augue interdum velit. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Consectetur adipiscing elit duis tristique sollicitudin nibh. Fringilla ut morbi tincidunt augue
+      interdum velit. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus.
     </p>
   </section>
-  <section class="section-img">
-    <h2>Read some of our featured articles</h2>
-    <article>
+  <div class="wrapper">
+    <section class="section-img">
+      <h2>Read some of our <strong>featured articles</strong></h2>
+      <article>
         <img src="img/sample.jpg" alt="">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
         </p>
-    </article>   
-    <article>
+      </article>
+      <article>
         <img src="img/sample3.jpg" alt="">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
         </p>
-    </article>   
-    <article>
+      </article>
+      <article>
         <img src="img/sample.jpg" alt="">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
         </p>
-    </article>   
-    <article>
+      </article>
+      <article>
         <img src="img/sample3.jpg" alt="">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
         </p>
-    </article>   
-  </section>
-  <section class="subscribe">
-    <div class="subscribe-wrapper">
+      </article>
+    </section>
+    <section class="subscribe">
       <p>
         Subscribe to our <span>newsletter</span>
       </p>
-      <input type="email" placeholder="Enter your email address" required>
-      <button type="button" id="subscribe" name="subscribe" value="subscribe">Subscribe</button>
-    </div>
-  </section>
+      <div class="subscribe-wrapper">
+        <input type="email" placeholder="Enter your email address" required>
+        <button type="button" id="subscribe" name="subscribe" value="subscribe">Subscribe</button>
+      </div>
+    </section>
+  </div>
+
   <footer>
     <ul>
       <li>
-        <h2>Black &#38; White</h2>
+        <h3>Black &#38; White</h3>
         <p>
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit duis tristique sollicitudin nibh. Fringilla ut morbi tincidunt augue interdum velit. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Porta lorem mollis aliquam ut porttitor. Mauris a diam maecenas 
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit duis tristique
+          sollicitudin nibh. Fringilla ut morbi tincidunt augue interdum velit. Placerat duis ultricies lacus sed turpis
+          tincidunt id aliquet risus. Porta lorem mollis aliquam ut porttitor. Mauris a diam maecenas
         </p>
       </li>
       <li>
         <h3>Last Tweet</h3>
         <p>
-          ...sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit duis tristique sollicitudin nibh. Fringilla ut morbi tincidunt augue interdum velit. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Porta lorem mollis aliquam ut porttitor. Mauris a diam maecenas 
+          ...sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit duis
+          tristique sollicitudin nibh. Fringilla ut morbi tincidunt augue interdum velit. Placerat duis ultricies lacus
+          sed turpis tincidunt id aliquet risus. Porta lorem mollis aliquam ut porttitor. Mauris a diam maecenas
         </p>
-        <p>3 hours ago</p>
+        <span class="lightly-color"><p>3 hours ago</p></span>
       </li>
       <li>
         <h3>Contact</h3>
@@ -95,22 +113,27 @@
       <li>
         <h3>News Letter</h3>
         <p>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit duis tristique sollicitudin nibh. Fringilla ut morbi tincidunt augue interdum velit. Placerat duis ultricies lacus sed turpis tincidunt id aliquet risus. Porta lorem mollis aliquam ut porttitor. Mauris a diam maecenas 
+          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur adipiscing elit duis tristique
+          sollicitudin nibh. Fringilla ut morbi tincidunt augue interdum velit. Placerat duis ultricies lacus sed turpis
+          tincidunt id aliquet risus. Porta lorem mollis aliquam ut porttitor. Mauris a diam maecenas
         </p>
-        <input type="email" placeholder="Enter your email address" required>
-        <button type="submit" id="subscribefooter" name="subscribefooter" value="subscribefooter">Subscribe</button>
+        <div class="subscribe">
+          <input type="email" placeholder="Enter your email address" required>
+          <button type="submit" id="subscribefooter" name="subscribefooter" value="subscribefooter">Subscribe</button>  
+        </div>
       </li>
     </ul>
     <hr>
     <article>
-        <span>&#169; 2015 Ruben Stom</span>
-        <nav>
-            <a role="button" href="#Home" target="_self">Home</a>
-            <a role="button" href="#about" target="_self">About</a>
-            <a role="button" href="#shop" target="_self">Shop</a>
-            <a role="button" href="#vacancies" target="_self">Vacancies</a>              
-          </nav>   
+      <span>&#169; 2015 Ruben Stom</span>
+      <nav>
+        <a role="button" href="#Home" target="_self">Home</a>
+        <a role="button" href="#about" target="_self">About</a>
+        <a role="button" href="#shop" target="_self">Shop</a>
+        <a role="button" href="#vacancies" target="_self">Vacancies</a>
+      </nav>
     </article>
   </footer>
 </body>
+
 </html>
