@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url(../img/apples.jpg) no-repeat center;
+    width: 1600px;
+    height: 740px;
+    min-width: 900px;
+    max-width: 100%;
+    color: white;
+}
+.top{
+    padding: 56px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > a{
+    text-decoration: none;
+    margin-left: 72px;
+    font-size: 20px;
+    color: white;
+    transition: 0 0.7s;
+}
+nav > a:hover{
+    margin-left: 72px;
+    font-size: 20px;
+    color: black;
+    transition: 0 0.7s;
+}
+.top > h1{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+header > article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+header > article :first-child{
+    font-size: 60px;
+    margin-top: 200px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+header > article :first-child.end{
+    font-size: 100px;
+}
+article > p{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+header > button{
+    border: 1px white;
+}
+
+
+
+.section-img > article:nth-child(2n+1) {
+display: flex;
+flex-direction: row-reverse;
+justify-content: flex-start;
+margin: 10px 40px;
+}
