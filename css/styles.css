@@ -24,7 +24,7 @@ header {
     align-items: center;
 }
 
-nav>a {
+.nav>a {
     text-decoration: none;
     margin-left: 72px;
     font-size: 20px;
@@ -32,7 +32,7 @@ nav>a {
     transition: 0 0.7s;
 }
 
-nav>a:hover {
+.nav>a:hover {
     margin-left: 72px;
     font-size: 20px;
     color: black;
@@ -85,10 +85,7 @@ header>article>button:hover {
     border: 2px solid white;
     background-color: #A4A4A4;
     transition: all 0.5s;
-
 }
-
-
 .section-text{
     display: flex;
     margin: 90px 70px;
@@ -132,7 +129,7 @@ header>article>button:hover {
     
 }
 .subscribe{
-    margin-bottom:  20px;
+    margin-bottom: 20px;
     width: 91%;
     height: 70px;
     display: flex;
@@ -142,20 +139,23 @@ header>article>button:hover {
     font-size: 20px;
     padding: 20px 0;
 }
+.subscribe>p{
+    margin: 10px;
+    font-size: 15px;
+}
 .subscribe-wrapper{
     display: flex;
-    margin: 0 20px;
     width: 70%;
 }
-.subscribe-wrapper>input{
-    width: 95%;
+.input{
+    width: 90%;
     padding: 10px;
     text-align: left;
     border: 1px solid rgb(42, 44, 46);
     background-color: #F0F0F0;
     color: black;
 }
-.subscribe-wrapper>button{
+.button{
     background-color: rgb(42, 44, 46);
     border: 1px solid rgb(42, 44, 46);
     color: #F3F3F3;
@@ -165,22 +165,21 @@ header>article>button:hover {
 }
 footer{
     margin: 90px 70px 0 70px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
 }
 footer>ul{
     display: flex;
     gap: 70px;
     font-size: 12px;
     align-items: baseline;
-
+    margin-bottom: 90px;
 }
 footer>ul>li{
     display: flex;
     flex-direction: column;
+    color: #9E9E9E;
 }
-footer>ul>li>p{
+footer>ul>li>a{
+    text-decoration: none;
     color: #9E9E9E;
 }
 .lightly-color{
@@ -188,7 +187,15 @@ footer>ul>li>p{
     color: #F3F3F3;
 }
 h3{
+    color: black;
     font-size: 15px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+hr{
+    margin: 20px 0 0 0;
+    color: #9E9E9E;
+}
+footer>article>.nav>a{
+    color: black;
 }
